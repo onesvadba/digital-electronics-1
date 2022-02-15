@@ -2,4 +2,4 @@
 
 _VUT FEKT_
 __Electronics and telecomunications__
-IV. semestr
+# IV. semestr
