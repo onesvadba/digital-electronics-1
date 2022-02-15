@@ -1,2 +1,5 @@
 # digital-electronics-1
-#H1 
+
+_VUT FEKT_
+__Electronics and telecomunications__
+IV. semestr
