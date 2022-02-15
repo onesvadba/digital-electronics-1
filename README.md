@@ -6,3 +6,6 @@
 ### IV. semestr
 ###
 ## PC excercise
+- first
+- second
+- third 
