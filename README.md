@@ -1,5 +1,6 @@
 # digital-electronics-1
 
+#Ondřej Nesvadba
 _VUT FEKT_
 __Electronics and telecomunications__
-#H3 IV. semestr
+### IV. semestr
