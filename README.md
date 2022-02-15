@@ -6,6 +6,6 @@
 ### IV. semestr
 ###
 ## PC excercise
-- first
+- first 15. 2.
 - second
 - third 
