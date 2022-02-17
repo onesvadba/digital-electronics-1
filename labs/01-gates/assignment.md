@@ -3,9 +3,8 @@
 ### De Morgan's laws
 
 1. Equations of all three versions of logic function f(c,b,a):
-![CP01_1](https://user-images.githubusercontent.com/99417291/154483889-db1cedf8-1252-420a-ac26-636d41f8234b.jpg)
 
-  
+![CP01_1](https://user-images.githubusercontent.com/99417291/154483889-db1cedf8-1252-420a-ac26-636d41f8234b.jpg)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
