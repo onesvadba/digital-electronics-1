@@ -6,9 +6,11 @@
 
 
    Greater than:
+   
 ![CP02_1](https://user-images.githubusercontent.com/99417291/155342948-eb97c3bb-5810-437b-a1cc-b036083815f7.jpg)
 
    Less than:
+   
 ![CP02_2](https://user-images.githubusercontent.com/99417291/155343047-49898dcf-f4e5-4f4a-a5ad-a66638ab1d3c.jpg)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
