@@ -38,9 +38,37 @@ entity top is
            LED : out STD_LOGIC_VECTOR (3 downto 0));
 end top;
 
+------------------------------------------------------------------------
+-- Architecture body for top level
+------------------------------------------------------------------------
 architecture Behavioral of top is
+
+  -- Internal signals between flip-flops
+  signal s_ff0 : std_logic;
+
+  -- WRITE YOUR CODE HERE
 
 begin
 
+  --------------------------------------------------------------------
+  -- Four instances (copies) of D-type FF entity
+  d_ff_0 : entity work.d_ff_rst
+      port map(
+          clk   => CLK100MHZ,
+          rst   => BTNC,
+          -- WRITE YOUR CODE HERE
+          
+          q     => s_ff0
+      );
 
-end Behavioral;
+  d_ff_1 : entity work.d_ff_rst
+      port map(
+          clk   => CLK100MHZ,
+          rst   => BTNC,
+          -- WRITE YOUR CODE HERE
+
+      );
+
+  -- PUT OTHER TWO FLIP-FLOP INSTANCES HERE
+
+end architecture Behavioral;
