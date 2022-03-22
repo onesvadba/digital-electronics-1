@@ -38,6 +38,8 @@
 
    ![waves](https://user-images.githubusercontent.com/99417291/159514805-a92c77c6-a5a0-49a2-b889-1258a514374a.png)
 
+   ![waves2](https://user-images.githubusercontent.com/99417291/159515153-78bf7a00-7f8b-4b9d-907e-90d664f6d112.png)
+
 
 ### Two counters
 
