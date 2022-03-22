@@ -1,4 +1,4 @@
-# Lab 6: YOUR_FIRSTNAME LASTNAME
+# Lab 6: Ondřej Nesvadba
 
 ### Bidirectional counter
 
@@ -18,10 +18,17 @@
                 s_cnt_local <= (others => '0'); -- Clear all bits
 
             elsif (en_i = '1') then -- Test if counter is enabled
+                
+                if (cnt_up_i = '1') then
+                    s_cnt_local <= s_cnt_local + 1;
+                else
+                    s_cnt_local <= s_cnt_local - 1;
+                end if;
 
                 -- TEST COUNTER DIRECTION HERE
 
-                    s_cnt_local <= s_cnt_local + 1;
+                   --s_cnt_local <= s_cnt_local + 1;
+
             end if;
         end if;
     end process p_cnt_up_down;
@@ -29,7 +36,10 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![waves](https://user-images.githubusercontent.com/99417291/159514805-a92c77c6-a5a0-49a2-b889-1258a514374a.png)
+
+   ![waves2](https://user-images.githubusercontent.com/99417291/159515153-78bf7a00-7f8b-4b9d-907e-90d664f6d112.png)
+
 
 ### Two counters
 
